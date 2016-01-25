@@ -12,8 +12,10 @@ ssh -T git@github.com   # and input the pw.
 Example:
 
 git clone git@github.com:humanbrainengineer/repositories name.git
-# mkdir your dir,cd your dir ,and then ,exec the git init command.
+# mkdir your dir,cd your dir ,and then ,exec the "git init" command.
 #or cd the git dir.
 cd repositories name.git
-git add  
+git add filename
+git commit -m "info"
+git status
 git push
